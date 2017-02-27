@@ -33,28 +33,32 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
-    padding-top: 80px;
+    padding-top: 280px;
+	padding-bottom: 220px;
     text-align: center;
     background: #fff;
 }
 
 .about-section {
     height: 100%;
-    padding-top: 40px;
+    padding-top: 80px;
+	padding-bottom: 120px;
     text-align: center;
     background: #eee;
 }
 
 .portfolio-section {
     height: 100%;
-    padding-top: 40px;
+    padding-top: 80px;
+	padding-bottom: 120px;
     text-align: center;
     background: #fff;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 40px;
+    padding-top: 80px;
+	padding-bottom: 300px;
     text-align: center;
     background: #eee;
 }

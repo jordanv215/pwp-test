@@ -6,3 +6,10 @@
 		font-weight: bold;
 		color: mediumblue;
 	}
+	
+.intro-section {
+	background-image: url("../images/ballooncrop.jpg") !important;
+	background-size: 100% !important;
+	background-repeat: no-repeat !important;
+	background-position: bottom !important;
+}
