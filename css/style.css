@@ -6,7 +6,6 @@
 		font-weight: bold;
 		color: #6f88a7;
 	}
-	
 .intro-section {
 	background-image: url("../images/snowymountains.jpg") !important;
 	background-size: cover !important;
@@ -22,8 +21,11 @@
 	height: 275px;
 	width: 275px;
 }
-.about-title {
+.section-title {
 	margin-bottom: 0 !important;
+}
+.col-md-6 {
+	padding-top: 30px;
 }
 h1 {
 	font-family: Calibri;
@@ -43,6 +45,6 @@ h1 {
 		width: 175px;
 	}
 	.welcome-large {
-		font-size: 30px;
+		font-size: 40px;
 	}
 }
