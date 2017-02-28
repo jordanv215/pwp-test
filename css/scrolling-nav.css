@@ -17,9 +17,9 @@ html {
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .2s ease-in-out,padding .2s ease-in-out;
+        -moz-transition: background .2s ease-in-out,padding .2s ease-in-out;
+        transition: background .2s ease-in-out,padding .2s ease-in-out;
     }
 
     .top-nav-collapse {
@@ -32,9 +32,10 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
+    position: relative;
     height: 100%;
-    padding-top: 280px;
-	padding-bottom: 220px;
+    padding-top: 380px !important;
+	padding-bottom: 120px !important;
     text-align: center;
     background: #fff;
 }
@@ -61,4 +62,15 @@ of those sections to manage the look and feel of the site. */
 	padding-bottom: 300px;
     text-align: center;
     background: #eee;
+}
+@media (max-width: 768px) {
+    .about-section {
+        padding-top: 180px;
+    }
+    .portfolio-section {
+        padding-top: 180px;
+    }
+    .contact-section {
+        padding-top: 180px;
+    }
 }

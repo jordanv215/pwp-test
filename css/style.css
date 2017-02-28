@@ -1,15 +1,48 @@
 .name-button {
 	font-family: Calibri;
-	font-size: 40px;
+	font-size: 30px;
 }
 	span {
 		font-weight: bold;
-		color: mediumblue;
+		color: #6f88a7;
 	}
 	
 .intro-section {
-	background-image: url("../images/ballooncrop.jpg") !important;
-	background-size: 100% !important;
+	background-image: url("../images/snowymountains.jpg") !important;
+	background-size: cover !important;
 	background-repeat: no-repeat !important;
-	background-position: bottom !important;
+	background-position: center center !important;
+	color: white;
+}
+.welcome-large {
+	font-size: 60px;
+}
+.my-photo {
+	padding: 30px;
+	height: 275px;
+	width: 275px;
+}
+.about-title {
+	margin-bottom: 0 !important;
+}
+h1 {
+	font-family: Calibri;
+}
+	span {
+		font-weight: bold;
+		color: #6f88a7;
+	}
+@media (max-width: 768px) {
+	.intro-section {
+	}
+	.name-button {
+		font-size: 20px !important;
+	}
+	.my-photo {
+		height: 175px;
+		width: 175px;
+	}
+	.welcome-large {
+		font-size: 30px;
+	}
 }
