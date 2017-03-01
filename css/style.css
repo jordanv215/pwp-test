@@ -53,8 +53,8 @@ span {
 
 @media screen and (max-width: 768px) {
 	.intro-section {
-		padding-top: 280px !important;
-		padding-bottom: 30px !important;
+		padding-top: 230px !important;
+		padding-bottom: 80px !important;
 		background-image: url("../images/snowymountains.jpg") !important;
 		background-size: 768px !important;
 		background-repeat: no-repeat !important;
