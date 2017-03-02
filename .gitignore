@@ -2,3 +2,6 @@
 /vendor
 /node_modules
 /.idea
+
+# ignore seneitive mail config
+**/php/mail-config.php
