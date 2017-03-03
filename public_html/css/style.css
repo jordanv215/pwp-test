@@ -7,6 +7,14 @@ span {
 	font-weight: bold;
 	color: #6f88a7;
 }
+.btn {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+p {
+	font-size: 20px;
+}
 
 @media screen and  (min-width: 768px) {
 	.intro-section {
