@@ -94,6 +94,8 @@ span {
 }
 
 .foot-content {
-	font-size: 10px;
-	margin-bottom: 0px;
+	font-size: 12px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	margin-bottom: 0;
 }
