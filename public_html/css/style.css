@@ -99,3 +99,8 @@ span {
 	padding-top: 3px;
 	margin-bottom: 0;
 }
+
+.abquery-thumb {
+	height: 75px;
+	width: 100px;
+}
