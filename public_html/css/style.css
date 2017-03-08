@@ -88,8 +88,13 @@ span {
 		width: 175px;
 	}
 
+	.thumb {
+		max-width: 100%;
+		height: auto;
+	}
+
 	.welcome-large {
-		font-size: 30px;
+		font-size: 25px;
 	}
 }
 
@@ -98,4 +103,13 @@ span {
 	padding-bottom: 3px;
 	padding-top: 3px;
 	margin-bottom: 0;
+}
+
+.portfolio-content {
+	padding-bottom: 40px;
+}
+
+.thumb-link {
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
